@@ -1,0 +1,11 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname StringAndImages) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+"hello world"
+;string-append can be used to put two strings together
+(string-append "Ada" " " "Lovelace");can handle as many operands as possible
+"She is the first woman to write program in 1840s"
+;value to string primitive is string itself
+;some other string methods
+(string-length "apple")
+(substring "Modric" 0 3)
